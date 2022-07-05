@@ -1030,19 +1030,20 @@ h1, h2, h3, h4, p {
   margin-bottom: 24px;
   width: 100%;
   max-width: 163px;
-  background-image: url(../images/link.png);
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 8px 0;
+  border-radius: 22px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.footer__href:hover {
+/* .footer__href:hover {
   opacity: 0.7;
-}
+} */
 
 .footer__link {
   font-family: "Public Sans";
@@ -1051,6 +1052,13 @@ h1, h2, h3, h4, p {
   font-size: 14px;
   line-height: 28px;
   color: #FFFFFF;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+border-radius: 22px;
+padding: 14px 35px;
+}
+
+.footer__link:hover{
+  opacity: 0.7px;
 }
 
 .footer__and {

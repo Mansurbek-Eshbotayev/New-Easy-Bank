@@ -69,16 +69,17 @@ transition: all 0.3s ease;
   margin-bottom: 24px;
   width: 100%;
   max-width: 163px;
-  background-image: url(../images/link.png);
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 8px 0;
   transition: all 0.3s ease;
-  &:hover{
-    opacity: 0.7;
-  }
+  border-radius: 22px;
+  // &:hover{
+  //   opacity: 0.7;
+  // }
 }
 
 .footer__link{
@@ -89,7 +90,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 28px;
 color: #FFFFFF;
-
+background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+border-radius: 22px;
+padding: 14px 35px;
+&:hover{
+    opacity: 0.4;
+  }
 }
 
 .footer__and{
